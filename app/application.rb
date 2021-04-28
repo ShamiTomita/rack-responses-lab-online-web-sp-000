@@ -7,5 +7,6 @@ class Application
     
     resp.write "#{time}"
     resp.finish
+  end 
   
 end
