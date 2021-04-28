@@ -5,6 +5,7 @@ class Application
     env[:timestamp] = Time.now
     time = env[:timestamp]
     
-    resp.write ""
+    resp.write "#{time}"
+    resp.finish
   
 end
